@@ -1,0 +1,7 @@
+# robots.txt for datajournalism.tools
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://datajournalism.tools/sitemap.xml
