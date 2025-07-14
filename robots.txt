@@ -1,7 +1,13 @@
-# robots.txt for datajournalism.tools
-
+# Allow all web crawlers to access the site
 User-agent: *
+Disallow:
+
+# Allow specific crawlers (optional, but good practice)
+User-agent: Googlebot
 Allow: /
 
-# Sitemaps
+User-agent: Bingbot
+Allow: /
+
+# Location of the sitemap file
 Sitemap: https://datajournalism.tools/sitemap.xml
